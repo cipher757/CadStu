@@ -1,6 +1,8 @@
 # CadStu
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.1.
+This project is a sample application demonstrating the creation of a student registration system using [Angular CLI](https://github.com/angular/angular-cli) version 17.2.1. for the frontend and JSON-Server as a mock RESTful API for the backend.
+
+
 
 ## Development server
 
