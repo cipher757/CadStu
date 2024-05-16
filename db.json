@@ -17,7 +17,7 @@
       "period": "Vespertino",
       "course": {
         "id": 3,
-        "name": "História"
+        "name": "TDA"
       }
     },
     {
@@ -27,7 +27,7 @@
       "period": "Noturno",
       "course": {
         "id": 2,
-        "name": "Biologia"
+        "name": "TMA"
       }
     },
     {
@@ -48,11 +48,11 @@
     },
     {
       "id": 2,
-      "name": "Biologia"
+      "name": "TMA"
     },
     {
       "id": 3,
-      "name": "História"
+      "name": "TDI"
     },
     {
       "id": 4,
