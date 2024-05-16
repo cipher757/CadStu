@@ -1,33 +1,62 @@
 {
   "students": [
     {
-      "id": "1",
+      "id": 1,
       "name": "João",
-      "course": 1
+      "active": true,
+      "period": "Diurno",
+      "course": {
+        "id": 1,
+        "name": "ADS"
+      }
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Pedro",
-      "course": 2
+      "active": false,
+      "period": "Vespertino",
+      "course": {
+        "id": 3,
+        "name": "História"
+      }
     },
     {
-      "id": "3",
-      "name": "Julia",
-      "course": 3
+      "id": 3,
+      "name": "Carlos",
+      "active": true,
+      "period": "Noturno",
+      "course": {
+        "id": 2,
+        "name": "Biologia"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Bruno",
+      "active": false,
+      "period": "Diurno",
+      "course": {
+        "id": 4,
+        "name": "ADM"
+      }
     }
   ],
   "courses": [
     {
-      "id": "1",
+      "id": 1,
       "name": "ADS"
     },
     {
-      "id": "2",
-      "name": "ADM"
+      "id": 2,
+      "name": "Biologia"
     },
     {
-      "id": "3",
-      "name": "TDI"
+      "id": 3,
+      "name": "História"
+    },
+    {
+      "id": 4,
+      "name": "ADM"
     }
   ]
 }

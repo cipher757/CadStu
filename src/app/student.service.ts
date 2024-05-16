@@ -21,7 +21,7 @@ export class StudentService {
   }
 
   deleteStudent(student: Student): Observable<void> {
-    return this.http.delete<void>(`${this.url}/${student.id}`);
+    return this.http.delete<void>(`${this.url}/${student.id}`); //http://localhost:3000/students/id
   }
 
   putStudent(student: Student): Observable<Student> {

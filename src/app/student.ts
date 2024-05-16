@@ -1,6 +1,10 @@
+import { Course } from "./course";
+
 export interface Student
 {
   id: number;
   name: String;
-  course: number;
+  active: boolean;
+  period: String;
+  course: Course;
 }
