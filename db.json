@@ -39,6 +39,16 @@
         "id": 4,
         "name": "ADM"
       }
+    },
+    {
+      "id": 5,
+      "name": "Maria",
+      "active": true,
+      "period": "Diurno",
+      "course": {
+        "id": 1,
+        "name": "ADS"
+      }
     }
   ],
   "courses": [
@@ -57,6 +67,10 @@
     {
       "id": 4,
       "name": "ADM"
+    },
+    {
+      "id": 5,
+      "name": "GTI"
     }
   ]
 }
