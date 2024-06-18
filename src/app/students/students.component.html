@@ -17,22 +17,10 @@
         Ativo
       </label>
     </div>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" value="Diurno" formControlName="period" id="diurno" checked>
+    <div *ngFor="let period of period" class="form-check">
+      <input class="form-check-input" type="radio" [value]="period" formControlName="period" id="diurno" checked>
       <label class="form-check-label" for="diurno">
-        Diurno
-      </label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" value="Vespertino" formControlName="period" id="vespertino">
-      <label class="form-check-label" for="vespertino">
-        Vespertino
-      </label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" value="Noturno" formControlName="period" id="noturno">
-      <label class="form-check-label" for="noturno">
-        Noturno
+        {{period}}
       </label>
     </div>
     <small *ngIf="submitted && period.hasError('required')" class="text-danger">É necessário um periodo!</small>
@@ -40,10 +28,10 @@
       <label for="curso" class="form-label">Curso:</label>
       <select class="form-select"
               id="curso"
-              aria-label="Default select example"
+              aria-label="example"
               formControlName="course"
               [compareWith]="compareCourses">
-        <option *ngFor="let course of courses" [ngValue]="course">{{course.name}}</option>
+        <option *ngFor="let course of courses" [ngValue]="course.id">{{course.name}}</option>
       </select>
       <small *ngIf="submitted && course.hasError('required')" class="text-danger">O curso é requirido!</small>
     </div>
